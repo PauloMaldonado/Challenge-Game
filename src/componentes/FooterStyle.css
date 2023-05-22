@@ -1,0 +1,66 @@
+.footer {
+    width: 100%;
+    padding: 6rem 0;
+    background: rgba(0,0,0, .8);
+
+}
+
+.footer-conteudo{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  
+}
+
+.footer .esquerda {
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.footer .direita {
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: auto;
+}
+
+.footer p, h4 {
+    font-size: 1.4rem;
+    padding: 1rem 0;
+    color: #fff;
+
+}
+
+.footer .localizacao {
+    display: flex;
+    align-items: center;
+}
+
+.footer .localizacao p{
+    padding-bottom: .5rem;
+}
+
+.footer .localizacao h4{
+    padding-top: 0;
+}
+
+@media screen and (max-width: 640px){
+    .footer-conteudo{
+        grid-template-columns: 1fr;
+    }
+    .direita .rede-social{
+        margin: auto;
+    }
+}
+    
+
+
+
+
+

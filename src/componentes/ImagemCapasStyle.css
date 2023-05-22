@@ -1,0 +1,41 @@
+.capa-img{
+    background: rgba(0, 0, 0, .3);
+    height: 50vh;
+    width: 100%;
+    position: relative;
+}
+
+.capa-img::before{
+    content: '';
+    background: url('../ferramentas/fundo3.png') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.capa-img .heading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.capa-img h1{
+    font-size: 4rem;
+}
+
+.capa-img p{
+    font-size: 2rem;
+}
+
+@media screen and (max-width:640px) {
+    .capa-img h1{
+        font-size: 2rem;
+    }
+}
+    
